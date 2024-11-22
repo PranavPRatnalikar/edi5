@@ -1,0 +1,155 @@
+/* General Styling */
+.students {
+    width: 100%;
+    background-color: #141B2D;
+    color: #FFF;
+    font-family: Arial, sans-serif;
+  }
+  
+  .students-mid {
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .nav-buttons button {
+    padding: 8px 12px;
+    background-color: #1F2A4D;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .nav-buttons button:hover {
+    background-color: #293B66;
+  }
+  
+  /* Division Options */
+  .division-options{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+  }
+
+  .division-options ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+    margin-top: 2px;
+  }
+  
+  .division-options ul li {
+    cursor: pointer;
+    color: #D1D1D1;
+  }
+  
+  .division-options ul li:hover {
+    color: #FFF;
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    background-color: #1F2A4D;
+    color: #FFF;
+  }
+  
+  /* Table Styling */
+  .table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .students-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1B2439;
+    border: 1px solid #293B66;
+  }
+  
+  .students-table th,
+  .students-table td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #293B66;
+    color: #FFF;
+  }
+  
+  .students-table th {
+    background-color: #1F2A4D;
+  }
+  
+  .students-table td {
+    background-color: #1B2439;
+  }
+  
+  .students-table tr:nth-child(even) {
+    background-color: #1F2A4D;
+  }
+  
+  /* Status Styling */
+  .status {
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .status.present {
+    background-color: #28A745;
+    color: white;
+  }
+  
+  .status.absent {
+    background-color: #DC3545;
+    color: white;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .students-mid {
+      max-width: 100%;
+      padding: 10px;
+    }
+  
+    .nav-buttons {
+      flex-direction: column;
+      gap: 5px;
+    }
+  
+    .students-table th,
+    .students-table td {
+      font-size: 0.9rem;
+    }
+  }
+  

@@ -1,0 +1,45 @@
+/* Container styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a2e;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  /* Title styling */
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Description styling */
+  .description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Button styling */
+  .uploadButton {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  .uploadButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-group{
+    width: 18rem;
+  }

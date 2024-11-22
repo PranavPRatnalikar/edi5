@@ -1,0 +1,212 @@
+.attendance-system {
+  background-color: #141B2D;
+  color: #fff;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  flex-wrap: wrap; /* Added for responsiveness */
+}
+
+.stat-box {
+  background-color: #1F2A4D;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  width: 18rem;
+  margin-bottom: 10px; /* To provide spacing when wrapped */
+}
+
+.stat-box h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.stat-box p {
+  font-size: 24px;
+}
+
+.options {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 5rem;
+  flex-wrap: wrap; /* Added for responsiveness */
+}
+
+.option-button {
+  background-color: #1D2B3A;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  margin: 0 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.submit-button {
+  background-color: #007BFF;
+}
+
+.division-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap; /* Added for responsiveness */
+}
+
+.division-tabs button {
+  background-color: #1D2B3A;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  margin: 10px 5px; /* Adjusted margin for responsiveness */
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.table-container {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.attendance-table {
+  width: 100%;
+    border-collapse: collapse;
+    background-color: #1B2439;
+    border: 1px solid #293B66;
+}
+
+.attendance-table th, .attendance-table td {
+  padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #293B66;
+    color: #FFF;
+}
+
+.attendance-table th{
+  background-color: #1F2A4D;
+}
+
+.attendance-table td{
+  background-color: #1B2439;;
+}
+
+.attendance-table tr{
+  background-color: #1F2A4D;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.present {
+  background-color: #28A745;
+  color: #fff;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #1D2B3A;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  margin: 0 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Media Queries for responsive design on smaller screens */
+@media (max-width: 800px) {
+  .header {
+    flex-direction: column; /* Stack header elements vertically */
+    text-align: center;
+  }
+
+  .stats-container {
+    flex-direction: column; /* Stack the stats vertically */
+    align-items: center; /* Center the items */
+  }
+
+  .stat-box {
+    width: 100%; /* Full width for smaller screens */
+    max-width: 300px; /* Limit the max width */
+  }
+
+  .options {
+    justify-content: center; /* Center the buttons */
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center;
+  }
+
+  .option-button {
+    width: 100%; /* Full width for buttons */
+    max-width: 200px; /* Limit button width */
+    margin: 10px 0; /* Space between buttons */
+  }
+
+  .division-tabs {
+    flex-direction: column; /* Stack tabs vertically */
+    align-items: center;
+  }
+
+  .division-tabs button {
+    width: 100%; /* Full width for tabs */
+    max-width: 300px; /* Limit button width */
+    margin: 5px 0; /* Spacing between buttons */
+  }
+
+  .search-bar input {
+    width: 100%; /* Full width for the search input */
+    max-width: 100%; /* Ensure input doesn't exceed screen size */
+  }
+
+  .table-container {
+    width: 100%; /* Full width table for smaller screens */
+  }
+
+  .attendance-table th, .attendance-table td {
+    padding: 8px; /* Reduce padding for smaller screens */
+    font-size: 14px; /* Adjust font size for readability */
+  }
+
+  .pagination {
+    flex-direction: column; /* Stack pagination buttons vertically */
+    align-items: center;
+  }
+
+  .pagination button {
+    width: 100%;
+    max-width: 60px; /* Limit button size */
+    margin-bottom: 5px; /* Add spacing between buttons */
+  }
+}

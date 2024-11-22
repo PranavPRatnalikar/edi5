@@ -1,0 +1,20 @@
+# Ignore sensitive JSON files
+ANN_cp/credentials.json
+ANN_cp/galaxy-unhilater-firebase-adminsdk-6diyp-a486ede4b4.json
+
+# Ignore virtual environment folders
+ANN_cp/venv/
+Faculty_Assistance_System/node_modules/
+
+# Ignore large binary files that shouldn't be in Git
+ANN_cp/FaceNet.dat
+
+# Ignore other temporary and log files
+*.log
+*.pyc
+__pycache__/
+.DS_Store
+
+# Ignore IDE or editor-specific files
+.vscode/
+.idea/

@@ -1,0 +1,11 @@
+numpy
+opencv-python
+face-recognition
+firebase-admin
+streamlit
+requests
+moviepy
+mediapipe
+dlib
+flask
+flask_cors
